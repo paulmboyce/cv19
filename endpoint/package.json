@@ -2,17 +2,21 @@
   "name": "cv19-endpoint",
   "version": "1.0.0",
   "description": "Endpoint Server for CV19 Mobile app client",
+  "private": true,
   "main": "endpont.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/paulmboyce/cv19.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "D Baillie and P Boyce",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
