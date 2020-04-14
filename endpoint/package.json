@@ -1,0 +1,14 @@
+{
+  "name": "cv19-endpoint",
+  "version": "1.0.0",
+  "description": "Endpoint Server for CV19 Mobile app client",
+  "main": "endpont.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "D Baillie and P Boyce",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
